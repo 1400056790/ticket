@@ -13,9 +13,10 @@ public class FlightDaoIml implements IFlightDao {
 
     @Override
     public void insertFlight(Flight flight) throws SQLException {
-       String url="jdbc:oracle:thin:@localhost:1521:orcl";
-       String username="pp";
-       String password="pp12345";
+        System.out.println(flight);
+        String url="jdbc:oracle:thin:@localhost:1521:orcl";
+        String username="pp";
+        String password="pp12345";
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver");
         } catch (ClassNotFoundException e) {

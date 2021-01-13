@@ -15,7 +15,6 @@ public class MainUI {
         Scanner sc = new Scanner(System.in);//接受键盘输入
         while (true) {
             System.out.println("请输入相应的数字进行操作：");
-
             System.out.println("按1，录入航班信息");
             System.out.println("按2，显示所有航班信息");
             System.out.println("按3，查询航班信息");
@@ -66,6 +65,9 @@ public class MainUI {
                         }
                     }
                 }
+
+
+
             }
         }
     }

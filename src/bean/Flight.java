@@ -79,7 +79,7 @@ public class Flight {
         return
                 "航班编号flightId='" + flightId + '\'' +","+"\n"+
                 "机型planeType='" + planeType + '\'' +","+"\n"+
-                " 座位数currentSeatsNum='" + currentSeatsNum + '\'' +","+"\n"+
+                "座位数currentSeatsNum='" + currentSeatsNum + '\'' +","+"\n"+
                 "起飞机场departureAirPort='" + departureAirPort + '\'' +","+"\n"+
                 "目的机场destinationAirPort='" + destinationAirPort + '\'' +","+"\n"+
                 "起飞时间departureData='" + departureData + '\'';
